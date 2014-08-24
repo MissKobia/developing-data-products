@@ -1,5 +1,7 @@
 developing-data-products
 ========================
-Here is the link of presentation on Rpubs
 
-http://rpubs.com/misskobia/26192
+
+Application link: http://misskobia.shinyapps.io/developing-data-products/
+
+Presentation link: http://rpubs.com/misskobia/26192
