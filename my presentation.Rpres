@@ -1,0 +1,54 @@
+Presentation
+========================================================
+author: misskobia
+date: `r date()`
+
+Introduction
+========================================================
+
+In this presentation, I will show the relationship between Miles per Gallon and the other 4 variables
+
+- mpg vs.cyl
+- mpg vs.gear
+- mpg vs.hp
+- mpg vs.wt
+
+Plot 1 & 2
+========================================================
+mpg vs.cyl
+```{r}
+mpg<-mtcars$mpg
+cyl<-mtcars$cyl
+plot(cyl, mpg)
+```
+
+***
+mpg vs.gear
+```{r}
+mpg<-mtcars$mpg
+gear<-mtcars$gear
+plot(gear, mpg)
+```
+
+Plot 3 & 4
+========================================================
+mpg vs. hp
+```{r}
+mpg<-mtcars$mpg
+hp<-mtcars$hp
+plot(hp,mpg)
+```
+***
+mpg vs. wt
+```{r}
+mpg<-mtcars$mpg
+wt<-mtcars$wt
+plot(wt, mpg)
+```
+
+Conclusion
+========================================================
+
+The plots in the previous slides were exactly same as the ones you've seen in the shinyApp. 
+
+The variables of hp and wt seemed to have the linear relationships with mpg. 
